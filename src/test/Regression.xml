@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression">
+    <test name ="Registration and Login" parallel="methods" thread-count="10">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://uprightautomation.online/registration/"></parameter>
+
+
+        <classes>
+
+            <class name="testClasses.LoginUATest.RegistrationUATest1"></class>
+            <class name="testClasses.LoginUATest"></class>
+
+
+        </classes>
+
+
+    </test>
+
+    <test name ="HomePage" parallel="methods" thread-count="10">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://uprightautomation.online/registration/"></parameter>
+
+
+        <classes>
+
+            <class name="testClasses.LoginUATest.RegistrationUATest1"></class>
+            <class name="testClasses.LoginUATest"></class>
+
+
+        </classes>
+
+
+    </test>
+
+
+
+    </suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+
+<suite name="Functional">
+    <test name ="Registration and Login">
+
+        <parameter name="browser" value="firefox"/>
+        <!--
+        <parameter name="url" value="https://uprightautomation.online/registration/"></parameter>
+        -->
+
+
+        <classes>
+
+            <class name="testClasses.LoginUATest"></class>
+            <!--   <class name="testClasses.LoginUATest"></class> -->
+
+
+           </classes>
+
+
+       </test>
+
+
+   </suite>
